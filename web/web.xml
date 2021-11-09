@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<servlet>
+    <servlet-name>ServletExample</servlet-name> <!-- Should be the name of
+your Servlet-->
+    <servlet-class>MyServlet.ServletExample</servlet-class> <!-- Should be the
+path of your Servlet-->
+
+</servlet>
+<servlet-mapping>
+<servlet-name>ServletExample
+</servlet-name>
+<url-pattern>/exampleServlet/*</url-pattern>
+</servlet-mapping>
