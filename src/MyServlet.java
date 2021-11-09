@@ -13,6 +13,8 @@ public class ServletExample extends HttpServlet {
         out.println("Servlet called");
         out.println("Data Inserted Successfully");
         String username = request.getParameter("username");
+        String username = request.getParameter("username");
+        String username = request.getParameter("username");
         out.insertRecord(username);
         // This is use to redirect to other page
     }
